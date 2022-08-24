@@ -1,0 +1,26 @@
+-eq = equal to
+-ne = not equal to
+-gt or > = greater than
+-ge or >= = greater than or equal to
+-lt or < = less than
+-le or <= = less than or equal to
+-a or && = AND
+-o 0r || = OR
+-d -> directory
+-f -> file
+> -> replace
+>> -> append (add)
+{0..20..2} = {starting..ending..increment}
+echo $@ -> This prints out all the element of an array
+echo $# -> This prints out the length of an array
+echo $! -> This prints the index of elements in an array
+unset -> To remove an item of an array
+mkdir -> To create a directory once (folder)
+mkdir -p -> To create a directory in multiple times
+touch -> To create a file
+
+
+Notes 
+1. The main difference is that while loops are designed to run while a condition is satisfied and then terminate once that condition returns false. 
+On the other hand, until loops are designed to run while the condition returns false and only terminate when the condition returns true.
+2. You can only access a function variable externally after the function has been called

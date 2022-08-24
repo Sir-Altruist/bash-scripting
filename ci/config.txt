@@ -1,0 +1,8 @@
+export DEPLOY_PATH_TEST=
+export SOURCE_PATH=
+export OS=
+
+Notes
+1. DEPLOY_PATH_TEST/STAGING/PROD refers to the path the project will be hosted. In my test case, I can just create an empty folder in my system and the copy and paste the path here. The name should be the same as my project folder name
+2. SOURCE_PATH refers to the path of the project itself i.e where your code resides. Just copy and paste its path here
+3. OS refers to the Operaating System you are hosting it on i.e linux, windows, etc
