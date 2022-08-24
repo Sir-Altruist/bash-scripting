@@ -35,11 +35,35 @@
 #     fi
 #     echo $i
 # done
-for (( i=1; i<10; i++ ))
+# for (( i=1; i<10; i++ ))
+# do
+#     if [ $i -eq 3 ] || [ $i -eq 7 ]
+#     then
+#         continue
+#     fi
+#     echo $i
+# done
+
+# Select loop
+# select car in BMW MERCEDES HONDA TESLA TOYOTA
+# do
+#     echo "You have selected ${car}"
+# done
+# Select loop with case statement
+select car in BMW MERCEDES HONDA TESLA TOYOTA
 do
-    if [ $i -eq 3 ] || [ $i -eq 7 ]
-    then
-        continue
-    fi
-    echo $i
+    case $car in 
+    BMW)
+        echo "BMW selected";;
+    MERCEDES)
+        echo "MERCEDES selected";;
+    HONDA)
+        echo "HONDA selected";;
+    TESLA)
+        echo "TESLA selected";;
+    TOYOTA)
+        echo "TOYOTA selected";;
+    *)
+        echo "Error! Option selected is not available";;
+    esac
 done

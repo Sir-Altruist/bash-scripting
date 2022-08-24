@@ -18,9 +18,13 @@ unset -> To remove an item of an array
 mkdir -> To create a directory once (folder)
 mkdir -p -> To create a directory in multiple times
 touch -> To create a file
+-O -> download
+-o -> change file name
+-t -> seconds
 
 
 Notes 
 1. The main difference is that while loops are designed to run while a condition is satisfied and then terminate once that condition returns false. 
 On the other hand, until loops are designed to run while the condition returns false and only terminate when the condition returns true.
 2. You can only access a function variable externally after the function has been called
+3. The select loop provides an easy way to create a numbered menu from which users can select options. It is useful when you need to ask the user to choose one or more items from a list of choices.
